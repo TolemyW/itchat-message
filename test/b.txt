@@ -1,6 +1,0 @@
-hello world 
-python
-java
-c
-shell
-docker
