@@ -1,0 +1,153 @@
+[root@zzns-72 ~]# docker history f728ee523e1b 
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+f728ee523e1b        2 months ago        /bin/sh -c #(nop)  LABEL revision=              0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  EXPOSE 4040/tcp              0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV PATH=/usr/java/jdk1...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV JAVA_HOME=/usr/java...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV PATH=/usr/java/jdk1...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop) ADD dir:96debfd373f88816...   500 MB              
+<missing>           2 months ago        /bin/sh -c mv $INCEPTOR_PLUGINS/governor/i...   1.68 kB             
+<missing>           2 months ago        /bin/sh -c mv $INCEPTOR_PLUGINS/governor/i...   260 B               
+<missing>           2 months ago        /bin/sh -c tar zxvf $INCETPOR_PLUGINS/gove...   34.9 MB             
+<missing>           2 months ago        /bin/sh -c #(nop) COPY file:d6b3de419ae37a...   31.1 MB             
+<missing>           2 months ago        /bin/sh -c mkdir -p $HADOOP_HOME $INCEPTOR...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV SOCKETDIR=/var/run/...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV DATADIR=/var/transw...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV LOGDIR=/var/transwa...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV INCEPTOR_PLUGINS=/u...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV INCEPTOR_SCRIPTS=/u...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV HADOOP_HOME=/usr/li...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV INCEPTOR_HOME=/usr/...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  VOLUME [/var/run/hadoop...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  VOLUME [/var/transwarp]      0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop) WORKDIR /root                 0 B                 
+<missing>           2 months ago        /bin/sh -c touch /var/lib/rpm/* &&     yum...   926 MB              
+<missing>           2 months ago        /bin/sh -c #(nop)  MAINTAINER HuaichengZhe...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  LABEL revision=859bc553...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  EXPOSE 60010/tcp             0 B                 
+<missing>           2 months ago        /bin/sh -c cp $TRANSWARP_SCRIPTS/pre_delet...   927 B               
+<missing>           2 months ago        /bin/sh -c cp /usr/lib/guardian-plugins/te...   2.13 kB             
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV PATH=/usr/java/jdk1...   0 B                 
+<missing>           2 months ago        /bin/sh -c cp $TRANSWARP_SCRIPTS/boot.sh /...   2.76 kB             
+<missing>           2 months ago        /bin/sh -c #(nop) ADD dir:41b7ad33d91bfef6...   165 MB              
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV PATH=/usr/java/jdk1...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV JAVA_HOME=/usr/java...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV HBASE_CONF_DIR=/etc...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV TRANSWARP_SCRIPTS=/...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV HBASE_HOME=/usr/lib...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV SOCKETDIR=/var/run/...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV DATA_DIR=/var/trans...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV LOG_DIR=/var/transw...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  VOLUME [/var/run/hadoop...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  VOLUME [/var/transwarp]      0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  WORKDIR /root                0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  MAINTAINER pengcheng.zh...   0 B                 
+<missing>           2 months ago        /bin/sh -c chmod 6050 /usr/lib/hadoop-yarn...   112 kB              
+<missing>           2 months ago        /bin/sh -c chown root:yarn /usr/lib/hadoop...   112 kB              
+<missing>           2 months ago        /bin/sh -c #(nop) COPY dir:1ba46036686ec35...   15.2 MB             
+<missing>           2 months ago        /bin/sh -c #(nop) COPY dir:e39dd08efc3e29d...   59.7 MB             
+<missing>           2 months ago        /bin/sh -c #(nop) COPY file:0bda48968c183d...   129 kB              
+<missing>           2 months ago        /bin/sh -c #(nop) COPY dir:f22608bcafcf069...   47.4 kB             
+<missing>           2 months ago        /bin/sh -c #(nop) COPY multi:e4344875f21f9...   10.7 kB             
+<missing>           2 months ago        /bin/sh -c #(nop) COPY file:80eaf32bea0b63...   2.29 kB             
+<missing>           2 months ago        /bin/sh -c #(nop) COPY multi:5757680221b2b...   5.07 kB             
+<missing>           2 months ago        /bin/sh -c #(nop) COPY multi:71f77b47eeb22...   6.19 kB             
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV DEFAULT_CONTAINER_E...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV HADOOP_COMMON_HOME=...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV HADOOP_CONF_DIR=/et...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV SOCKETDIR=/var/run/...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV LOGDIR=/var/transwa...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV TRANSWARP_DIR=/var/...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV TRANSWARP_HOME=/usr...   0 B                 
+<missing>           2 months ago        /bin/sh -c yum install -y wget libgfortran...   623 MB              
+<missing>           2 months ago        /bin/sh -c yum -y install epel-release && ...   182 MB              
+<missing>           2 months ago        /bin/sh -c groupadd superuser; usermod -G ...   0 B                 
+<missing>           2 months ago        /bin/sh -c yum --disablerepo='*' --enabler...   50.7 MB             
+<missing>           2 months ago        /bin/sh -c yum install -y yum-plugin-ovl        101 MB              
+<missing>           2 months ago        /bin/sh -c #(nop)  VOLUME [/var/run/hadoop...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  VOLUME [/var/transwarp]      0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  WORKDIR /root                0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  MAINTAINER qiushi.fan@t...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  LABEL branch=UNKNOWN         0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  LABEL revision=08134596...   0 B                 
+<missing>           2 months ago        /bin/sh -c cp /usr/lib/guardian-plugins/te...   2.13 kB             
+<missing>           2 months ago        /bin/sh -c #(nop) COPY dir:80f7f61e249056b...   68.5 MB             
+<missing>           2 months ago        /bin/sh -c mkdir ${DATA_DIRS}                   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV DATA_DIRS=/data          0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV HADOOP_CONF_DIR=/et...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV SOCKETDIR=/var/run/...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV LOGDIR=/var/transwa...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV TRANSWARP_DIR=/var/...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV TRANSWARP_HOME=/usr...   0 B                 
+<missing>           2 months ago        /bin/sh -c groupadd hadoop && usermod -a -...   2.06 kB             
+<missing>           2 months ago        /bin/sh -c #(nop)  VOLUME [/var/run/hadoop...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  VOLUME [/var/transwarp]      0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  WORKDIR /root                0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  MAINTAINER qiushi.fan@t...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  EXPOSE 2181/tcp 2191/tc...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV PATH=/usr/java/jdk1...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop) ADD dir:324ffb5235a5d019...   9.12 kB             
+<missing>           2 months ago        /bin/sh -c #(nop) ADD file:fcfb50199034ed8...   1.71 kB             
+<missing>           2 months ago        /bin/sh -c #(nop) ADD dir:2f6e758d344fd6c8...   6.8 kB              
+<missing>           2 months ago        /bin/sh -c #(nop) ADD dir:874be02033a8a8db...   34 kB               
+<missing>           2 months ago        /bin/sh -c #(nop) ADD file:c2c8b2e62d93486...   129 kB              
+<missing>           2 months ago        /bin/sh -c #(nop) ADD file:ad93a54ddc92473...   11.6 MB             
+<missing>           2 months ago        /bin/sh -c mkdir -p $ZOOKEEPER_HOME $ZOOKE...   0 B                 
+<missing>           2 months ago        /bin/sh -c useradd zookeeper                    6.05 kB             
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV TRANSWARP_DATA_HOME...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV ZOOKEEPER_CONF=/etc...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV TRANSWARP_SCRIPT_HO...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV ZOOKEEPER_HOME=/usr...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  WORKDIR /root                0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  VOLUME [/etc/keytabs]        0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  VOLUME [/var/transwarp]      0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  LABEL timestamp=2019-01...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  LABEL branch=UNKNOWN         0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  LABEL revision=0d9dba56...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop) COPY dir:6c74310f44754c0...   38.3 MB             
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV PATH=/usr/java/jdk1...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV GUARDIAN_UTILS_BIN_...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV GUARDIAN_PLUGINS_LI...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV GUARDIAN_PLUGINS_CO...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  ENV GUARDIAN_PLUGINS_HO...   0 B                 
+<missing>           2 months ago        /bin/sh -c #(nop)  MAINTAINER zhao.liu@tra...   0 B                 
+<missing>           11 months ago       /bin/sh -c #(nop)  WORKDIR /root                0 B                 
+<missing>           11 months ago       /bin/sh -c #(nop)  ENV PATH=/usr/java/jdk1...   0 B                 
+<missing>           11 months ago       /bin/sh -c #(nop)  ENV JAVA_HOME=/usr/java...   0 B                 
+<missing>           11 months ago       /bin/sh -c #(nop) COPY dir:79a7c4dda097647...   3.11 kB             
+<missing>           11 months ago       /bin/sh -c $JAVA7_HOME/bin/keytool -noprom...   190 kB              
+<missing>           11 months ago       /bin/sh -c #(nop) ADD file:a43d3fa0b27d177...   1.21 kB             
+<missing>           11 months ago       /bin/sh -c mkdir -p /srv/licence &&   wget...   7.61 kB             
+<missing>           11 months ago       /bin/sh -c #(nop) COPY dir:023ca1a62bef337...   6.06 kB             
+<missing>           11 months ago       /bin/sh -c #(nop)  ENV JAVA8_HOME=/usr/jav...   0 B                 
+<missing>           11 months ago       /bin/sh -c wget ftp://172.16.1.32/pub/tos/...   154 MB              
+<missing>           11 months ago       /bin/sh -c #(nop) COPY dir:18f0bff77af07f7...   12.3 kB             
+<missing>           11 months ago       /bin/sh -c #(nop)  ENV JAVA7_HOME=/usr/jav...   0 B                 
+<missing>           11 months ago       /bin/sh -c rpm -ivh ftp://172.16.1.32/pub/...   160 MB              
+<missing>           11 months ago       /bin/sh -c wget ftp://172.16.3.52/public/p...   244 MB              
+<missing>           11 months ago       /bin/sh -c mkdir -p /etc/transwarp/conf/        0 B                 
+<missing>           11 months ago       /bin/sh -c #(nop) ADD file:45588fcdb3f1b97...   1.52 kB             
+<missing>           11 months ago       /bin/sh -c #(nop) ADD file:6c40c8c221c66c4...   104 B               
+<missing>           11 months ago       /bin/sh -c wget ftp://172.16.1.32/pub/tos/...   1.6 MB              
+<missing>           11 months ago       /bin/sh -c #(nop) ADD dir:396e7b11c4d5246a...   3.68 kB             
+<missing>           11 months ago       /bin/sh -c #(nop) ADD file:2cc4d5496cc319b...   23 B                
+<missing>           11 months ago       /bin/sh -c wget ftp://172.16.1.32/pub/tos/...   8.53 MB             
+<missing>           11 months ago       /bin/sh -c wget ftp://172.16.1.32/pub/tos/...   31.1 MB             
+<missing>           11 months ago       /bin/sh -c echo "export HOME=/root" >> /ro...   212 B               
+<missing>           11 months ago       /bin/sh -c #(nop) ADD file:b97855f4463a342...   209 B               
+<missing>           11 months ago       /bin/sh -c #(nop) ADD file:f3ac7c19fc2e8c9...   4.06 kB             
+<missing>           11 months ago       /bin/sh -c groupadd superuser && useradd y...   8.07 kB             
+<missing>           11 months ago       /bin/sh -c ln -sf /usr/share/zoneinfo/Asia...   33 B                
+<missing>           11 months ago       /bin/sh -c echo "LANG=en_US.utf-8\nLC_ALL=...   1.61 MB             
+<missing>           11 months ago       /bin/sh -c #(nop)  ENV LC_ALL=en_US.UTF-8       0 B                 
+<missing>           11 months ago       /bin/sh -c yum --disablerepo='*' --enabler...   173 MB              
+<missing>           11 months ago       /bin/sh -c #(nop) COPY multi:cf0c947426ea1...   8.06 MB             
+<missing>           11 months ago       /bin/sh -c echo -e "[transwarp]\nname=Tran...   92 B                
+<missing>           11 months ago       /bin/sh -c echo "172.16.1.168 transwarp" >...   0 B                 
+<missing>           11 months ago       /bin/sh -c #(nop)  MAINTAINER HuaichengZhe...   0 B                 
+<missing>           3 years ago         /bin/sh -c #(nop) CMD ["/bin/bash"]             0 B                 
+<missing>           292 years ago                                                       0 B                 
+<missing>           292 years ago                                                       0 B                 
+<missing>           292 years ago                                                       0 B                 
+<missing>           292 years ago                                                       195 MB              
+<missing>           292 years ago                                                       0 B               
